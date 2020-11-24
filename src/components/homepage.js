@@ -19,7 +19,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-      HCL TECHNOLOGIES LTD.
+      Schneider Electric Ltd.
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -110,7 +110,7 @@ export default function Home() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image= 'https://i.ytimg.com/vi/XbWab6zdtb0/maxresdefault.jpg'    
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -147,5 +147,9 @@ export default function Home() {
       </footer>
       {/* End footer */}
     </React.Fragment>
+
   );
 }
+
+
+// "https://source.unsplash.com/random"
