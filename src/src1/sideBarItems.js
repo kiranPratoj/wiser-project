@@ -1,59 +1,70 @@
 export default {
     "data" : [
       {
-          "name": "HOME",
+          "name": "Home",
           "url": "/item1"
       },
       {
-        "name": "SETTINGS",
-        "url": "/item2"
-      },
-      {
-        "name": "FUNCTIONS",
+        "name": "Functions",
         "children": [
           {
-            "name": "FUNCTION 1",
+            "name": "Function 1",
             "url": "/child31"
           },
           {
-            "name": "FUNCTION 2",
+            "name": "Function 2",
             "url": "/child32"
           },
           {
-            "name": "FUNCTION 3",
+            "name": "Function 3",
+            "url": "/child33"
+          },
+          {
+            "name": "Function 4",
+            "url": "/child33"
+          },
+          {
+            "name": "Function 5",
+            "url": "/child33"
+          },
+          {
+            "name": "Function 6",
             "url": "/child33"
           }
         ]
       },
+      
       {
-        "name": "LOCATIONS",
+        "name": "Locations",
         "children": [
           {
-            "name": "MAIN HALL",
+            "name": "Main Hall",
             "url": "/child41"
           },
           {
-            "name": "DRAWING ROOM",
+            "name": "Drawing Room",
             "url": "/child42"
           },
           {
-            "name": "BEDROOMS",
-            "children": [
-              {
-                "name": "BEDROOM 1",
-                "url": "/child431"
-              },
-              {
-                "name": "BEDROOM 2",
-                "url": "/child432,"
-              },
-              {
-                "name": "BEDROOM 3",
-                "url": "/child433"
-              }
+            "name": "Lounge",
+            "url": "/child42"
+          },{
+            "name": "Location 4",
+            "url": "/child42"
+          },{
+            "name": "Location 5",
+            "url": "/child42"
+          },{
+            "name": "Location 6",
+            "url": "/child42"
+          },
+                    
             ]
+          },
+          {
+            "name": "Settings",
+            "url": "/item2"
           }
         ]
       }
-    ]
-  }
+    
