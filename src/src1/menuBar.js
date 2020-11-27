@@ -5,6 +5,8 @@ import { ExpandLess, ExpandMore } from "@material-ui/icons";
 import menuItems from './sideBarItems';
 import { NavLink as RouterLink } from 'react-router-dom';
 import useStyles from './menuBarStyles';
+import Avatar from "@material-ui/core/Avatar";
+import { Divider } from '@material-ui/core';
 
 const MenuBar = (props) => {
     const [ menu, setMenu ] = useState({});
@@ -25,6 +27,8 @@ const MenuBar = (props) => {
         return children.map(({children, name, url, links }) => {
             if ( !children ) {
               return (
+                <div> 
+                  <Divider />
                 <List component="div" disablePadding key={ name }>
                   <ListItem
                     className={classes.item}
@@ -41,14 +45,17 @@ const MenuBar = (props) => {
                       component={CustomRouterLink}
                       to={url}
                     >
-                      {name}
+                      {name} 
                     </Button>
                   </ListItem>
                 </List>
+                </div> 
               )
             }
             return (
-              <div key={ name }>
+             <div>
+              <Divider />
+                           <div key={ name }>
               <ListItem
                 className={classes.item}
                 disableGutters
@@ -61,7 +68,7 @@ const MenuBar = (props) => {
                   [classes.button] : true,
                   [classes.subMenu] : level
                 })}>
-                  { name } { menu[ name ] ? <ExpandLess /> : <ExpandMore />}
+                  { name }{ menu[ name ] ? <ExpandLess /> : <ExpandMore />}
                   </Button>
                 </ListItem>
                 <Collapse
@@ -72,20 +79,26 @@ const MenuBar = (props) => {
                   { handleMenu( children, 1) }
                 </Collapse>
               </div>
+              </div>
             )
         })
     }
 return (
+  <div>
+  
       <Drawer
           anchor="left"
           classes={{ paper: classes.drawer }}
           open={true}
           variant="persistent"
         >
+         <Avatar className={classes.avatar} style={{alignSelf: 'center',height: '70px', width: '70px' }} >     
+          </Avatar>
           <List {...rest} className={clsx(classes.root, className)} >
               { handleMenu(menuItems.data) }
           </List>
       </Drawer>
+      </div>
    )
 }
 export default MenuBar;

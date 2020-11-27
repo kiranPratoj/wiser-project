@@ -25,8 +25,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
      },
   avatar: {
-    margin: theme.spacing(1)
-    
+    margin: theme.spacing(1)    
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -41,11 +40,11 @@ export default function SignIn() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div  className='signBody' >
     <Container component="main" maxWidth="xs"  >
       {/* <CssBaseline />  */}
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
+        <Avatar className={classes.avatar} style={{width: '100px', height: '100px' }} variant='square'  src='https://play-lh.googleusercontent.com/e9-RmYf5W5qV6wK1dJtepZ2Lh5o2ewIrJzqqlxYuXeEE4eCsK1z4nxDArVHCxSB1nSNk'>
           
         </Avatar>
         <Typography component="h1" variant="h5">

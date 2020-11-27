@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    width: 100%;
+    color: greenyellow;
+  
     min-height: 100vh;
   }
 
   body {
-      background-color:red;
+      background-image: linear-gradient(#424242, #212121);
       width: 100%;
+      border-image-repeat: inherit;
     }
   

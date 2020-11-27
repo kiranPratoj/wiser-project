@@ -1,11 +1,16 @@
 import { makeStyles } from '@material-ui/styles';
+import Avatar from "@material-ui/core/Avatar";
 
 import { colors } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
     justifyContent : "left",
-   },
+   }, 
+   avatar: {
+   algin: 'right',
+   justifyContent : "right",    
+  },
   drawer : {
     paddingTop : "20px",
     width: "200px",

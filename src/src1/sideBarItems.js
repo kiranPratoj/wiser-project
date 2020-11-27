@@ -11,10 +11,10 @@ export default {
       {
           "name": "Home",
           "url": "/item1",
-          Icon: HomeIcon
+          "Icon": HomeIcon
       },{
         "name": "Functions",
-        Icon:ReceiptIcon, 
+        "Icon":ReceiptIcon, 
         "children": [
           {
             "name": "Function 1",
