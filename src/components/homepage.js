@@ -6,7 +6,6 @@ import './homebody.css'
 
 export default function HomePage(){
   return (
-
 <div >
 <MenuBar />
 <HomeBody />

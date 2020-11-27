@@ -18,7 +18,7 @@ export default {
         "children": [
           {
             "name": "Function 1",
-            "url": "/child31"
+            "url": "/Functions/Function1"
           },
           {
             "name": "Function 2",
@@ -48,7 +48,7 @@ export default {
         "children": [
           {
             "name": "Main Hall",
-            "url": "/child41"
+            "url": "/Locations/Location1"
           },
           {
             "name": "Drawing Room",
@@ -72,7 +72,7 @@ export default {
           },
           {
             "name": "Settings",
-            "url": "/item2"
+            "url": '/Settings'
           }
         ]
       }
