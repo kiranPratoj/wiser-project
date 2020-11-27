@@ -1,11 +1,20 @@
+import HomeIcon from "@material-ui/icons/Home";
+import ReceiptIcon from "@material-ui/icons/Receipt";
+import NotificationsIcon from "@material-ui/icons/Notifications";
+import DesktopWindowsIcon from "@material-ui/icons/DesktopWindows";
+import SettingsIcon from "@material-ui/icons/Settings";
+
+
 export default {
     "data" : [
+      
       {
           "name": "Home",
-          "url": "/item1"
-      },
-      {
+          "url": "/item1",
+          Icon: HomeIcon
+      },{
         "name": "Functions",
+        Icon:ReceiptIcon, 
         "children": [
           {
             "name": "Function 1",
