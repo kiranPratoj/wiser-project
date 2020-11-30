@@ -7,6 +7,8 @@ import HomePage from './components/homepage';
 import FunctionsPage from './components/pages/FunctionsPage';
 import LocationsPage from './components/pages/Locations/LocationsPage';
 import SettingsPage from './components/pages/Settings/SettingsPage';
+// import statsPage from './components/Stats/statsPage.js';
+import FavoritesPage from './components/pages/favoritesPages';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <Route path='/Functions/Function1' component={FunctionsPage} />
       <Route path='/Locations/Location1' component={LocationsPage} />
       <Route path='/Settings' component={SettingsPage} />
+      <Route path='/favorites' component={FavoritesPage} />
+      {/* <Route path='/stats' component={statsPage} /> */}
           </BrowserRouter>
       </main>
     </div>
