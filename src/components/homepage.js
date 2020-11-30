@@ -8,13 +8,13 @@ import './homebody.css';
 
 export default function HomePage(){
   return (
- <Grid style={{ justifyContent: "center"}} container spacing={0}>
+ <Grid style={{ justifyContent: "left"}}  Container spacing={0}>
       <Grid item xs={12}>        
         <Grid container spacing={0}>       
         <Grid item xs={4}>
             <MenuBar />
           </Grid>  
-                    <Grid item xs={8} sm={8} xl={8} >
+            <Grid item xs={8} >
             <HomeBody />
           </Grid>
          

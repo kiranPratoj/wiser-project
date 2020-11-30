@@ -40,6 +40,7 @@ const useStyles = makeStyles(theme => ({
   },
   subMenu : {
     paddingLeft : "50px !important",
+    fontSize:'.8rem'
   }
 }));
 export default useStyles;

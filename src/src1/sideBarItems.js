@@ -9,7 +9,7 @@ export default {
     "data" : [    
       {
           "name": "Home",
-          "url": "/home",
+          "url": "/",
           "Icon": HomeIcon
       },
       {
@@ -17,27 +17,31 @@ export default {
         "Icon":ReceiptIcon, 
         "children": [
           {
-            "name": "Function 1",
+            "name": "Lighting Widgets",
             "url": "/Functions/Function1"
           },
           {
-            "name": "Function 2",
+            "name": "Scenes",
             "url": "/signin"
           },
           {
-            "name": "Function 3",
+            "name": "Climate Widgets",
             "url": "/child33"
           },
           {
-            "name": "Function 4",
+            "name": "Security Widgets",
             "url": "/child33"
           },
           {
-            "name": "Function 5",
+            "name": "Entertainment",
             "url": "/child33"
           },
           {
-            "name": "Function 6",
+            "name": "Surveillance",
+            "url": "/child33"
+          },
+          {
+            "name": "Power Metering",
             "url": "/child33"
           }
         ]
@@ -51,7 +55,7 @@ export default {
             "url": "/Locations/Location1"
           },
           {
-            "name": "Drawing Room",
+            "name": "Backyard",
             "url": "/child42"
           },
           {
@@ -66,13 +70,31 @@ export default {
           },{
             "name": "Location 6",
             "url": "/child42"
-          },
-                    
+          },                    
             ]
           },
           {
             "name": "Settings",
-            "url": '/Settings'
+            "children": [
+              {
+                "name": "Profiles",
+                "url": "/settings"
+              },
+              {
+                "name": "Edit Scenes",
+                "url": "/settings/scenes"
+              },
+              {
+                "name": "Schedules",
+                "url": "/settings/scenes"
+              },{
+                "name": "Setup",
+                "url": "/settings/setup"
+              },{
+                "name": "System",
+                "url": "/settings/system"
+              }
+                ]           
           }
         ]
       }
