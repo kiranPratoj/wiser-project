@@ -6,13 +6,13 @@ import SettingsIcon from "@material-ui/icons/Settings";
 
 
 export default {
-    "data" : [
-      
+    "data" : [    
       {
           "name": "Home",
-          "url": "/item1",
+          "url": "/home",
           "Icon": HomeIcon
-      },{
+      },
+      {
         "name": "Functions",
         "Icon":ReceiptIcon, 
         "children": [
@@ -22,7 +22,7 @@ export default {
           },
           {
             "name": "Function 2",
-            "url": "/child32"
+            "url": "/signin"
           },
           {
             "name": "Function 3",

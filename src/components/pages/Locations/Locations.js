@@ -1,10 +1,20 @@
 import React from 'react'
 import '../../homebody.css';
+import {Paper, Typography, Divider, Grid} from '@material-ui/core';
 
 function Locations() {
     return (
         <div className='homepage'>
-            <h1> This is a Main Hall Component placed in Location 1 Page </h1>
+        <Grid item xs={8} >
+  <Grid item xs={12} >
+<Paper elevation={10} style={{ padding: "25px" }} align='fullwidth' space={2} style={{backgroundColor:'#424242', color:'#6cbc0a' }} gutterBottom='true' >
+  <Typography variant='h4'  > Locations Page of Wiser Application </Typography>
+  <Divider style={{width:'20px', color:'white'}} light='false' component='hr' orientation='horizontal' variant='fullwidth' />
+  <Divider style={{width:'20px', color:'white'}} light='false' orientation='horizontal' variant='fullwidth' />
+    <Divider style={{width:'20px', color:'white'}} light='false' orientation='horizontal' variant='fullwidth' />
+   </Paper>
+  </Grid>
+  </Grid>
         </div>
     )
 }

@@ -1,0 +1,364 @@
+﻿<!--  PICED Project  -->
+<Project>
+<Info>
+<FileVersion>18.0</FileVersion>
+<Created>2012-04-20T16:04:03</Created>
+<SoftwareName>PICED version 4.11.2.4</SoftwareName>
+<ProjectType>11</ProjectType>
+<ScreenWidth>1680</ScreenWidth>
+<ScreenHeight>1050</ScreenHeight>
+<Plain>2</Plain>
+<CGateIPAddress>127.0.0.1</CGateIPAddress>
+<CommandPortNumber>20023</CommandPortNumber>
+<StatusChangePortNumber>20025</StatusChangePortNumber>
+<CGateTest>0</CGateTest>
+<CGateTree>1</CGateTree>
+<CBusProjectName>F3A05</CBusProjectName>
+<Grid>8</Grid>
+<Site>
+<ProjName/>
+</Site>
+<Installer></Installer>
+<StartupPage Default="0"/>
+<TimeOut Default="0"/>
+<DarkTimeOut Default="-40"/>
+<TimeOutDuration>300</TimeOutDuration>
+<TimerPriority>0</TimerPriority>
+<RampThenOff>0</RampThenOff>
+<NudgeOnlyOnGroups>0</NudgeOnlyOnGroups>
+<AutoDelSpecialDay>0</AutoDelSpecialDay>
+<AutoDelSchedule>0</AutoDelSchedule>
+<PageTransition>0</PageTransition>
+<SubPageTransition>0</SubPageTransition>
+<PageTransitionSpeed>1</PageTransitionSpeed>
+<StartiPodServer>0</StartiPodServer>
+<MediaSkinName>Skin1</MediaSkinName>
+<SlimServer>
+<Start>0</Start>
+<IPAddress>127.0.0.1</IPAddress>
+<Port>9090</Port>
+<User/>
+<PW/>
+<MACAddress/>
+</SlimServer>
+<UseIndicatorKill>1</UseIndicatorKill>
+<PFR>0</PFR>
+<UnitNo>255</UnitNo>
+<Transferred>1</Transferred>
+<RefreshReminder>1</RefreshReminder>
+<Wiser>
+<PGIPAddress>192.168.100.192</PGIPAddress>
+<CNI>0</CNI>
+<PGCNIIPAddress>192.168.100.115</PGCNIIPAddress>
+<PGCNIPort>10001</PGCNIPort>
+<PGSubNetMask>255.255.255.0</PGSubNetMask>
+<Name>F3A05</Name>
+<PGSkinName>wiser2 - designit</PGSkinName>
+<remote>0</remote>
+<PGFullScreen>0</PGFullScreen>
+<NTP UseNTP="1" URL="pool.ntp.org|||" Server="0"/>
+<Portal/>
+<PGGatewayAddress>192.168.100.1</PGGatewayAddress>
+<DNS>192.168.100.1||</DNS>
+<PGRemoteCNI>1</PGRemoteCNI>
+<PGRemoteProjector>1</PGRemoteProjector>
+<PGRemoteProject>1</PGRemoteProject>
+<User>admin</User>
+<PGPW/>
+<PGToolsPW>NTQ2Ng</PGToolsPW>
+<WiFi Enabled="0" Name="" Sec="0" PW=""/>
+<DDNS Enabled="0" Server="" Host="" User="" PW=""/>
+<SAMBAClient Enabled="0" User="" PW="" Domain="" Host="" Folder=""/>
+<SAMBAServer Enabled="1" WorkGroup="WORKGROUP"/>
+<FirmwareURL/>
+<DHCP>0</DHCP>
+<language id="0" name="English" shortcode="EN"/>
+</Wiser>
+<ZigBeeProject Enabled="0" ProjectName="" DefaultNetwork="0"></ZigBeeProject>
+<Profile>0</Profile>
+<IndependentNetworks>0</IndependentNetworks>
+<AppConnectEnabled>1</AppConnectEnabled>
+<UseTimeSync>0</UseTimeSync>
+<Network>254</Network>
+<AppNo>56</AppNo>
+<Bias>-480</Bias>
+<DaylightBias>0</DaylightBias>
+<StandardDate Year="0" Month="0" Day="0" DayOfWeek="0" Hour="0" Minute="0" Second="0" MilliSecond="0"/>
+<DaylightDate Year="0" Month="0" Day="0" DayOfWeek="0" Hour="0" Minute="0" Second="0" MilliSecond="0"/>
+<LocationCountry>Australia</LocationCountry>
+<LocationCity>Adelaide</LocationCity>
+<Longitude>138.594</Longitude>
+<Latitide>-34.9236</Latitide>
+<LockComponents>0</LockComponents>
+<AlarmPeriod>2</AlarmPeriod>
+<AlarmDuration>3600</AlarmDuration>
+<AlarmSnooze>600</AlarmSnooze>
+<AlarmSound/>
+<AlarmPage>-1</AlarmPage>
+<Metric>1</Metric>
+<MasterUnit>0x4</MasterUnit>
+<EnablePopupEditor>0</EnablePopupEditor>
+<RemoteAccess>
+<IPAddress/>
+<Port>8336</Port>
+</RemoteAccess>
+<Networks>
+<Net id="0" Network="254"/>
+</Networks>
+<TimeFormat Hour="1" Day="0"/>
+</Info>
+<Borders></Borders>
+<Fonts>
+<Font Index="0" CharSet="1" Size="9" FontStyle="1"/>
+<Font Index="1" CharSet="1" Size="12" FontStyle="1"/>
+</Fonts>
+<Pages>
+<Page id="0" Name="New Page"></Page>
+<Page id="1" Name="Page 2"></Page>
+</Pages>
+<Scenes>
+<Scene id="0" Name="Scene 1" AnyNet="1" Network="254" AppNo="202" GroupAdd="100" Level="2">
+<Items>
+<Item id="0" Network="254" AppNo="56" GroupAdd="1" Level="0" Name="Allan's Office Fluorescents"/>
+</Items>
+</Scene>
+<Scene id="1" Name="Scene 2" AnyNet="1" Network="254" AppNo="202" GroupAdd="15" Level="0">
+<Items>
+<Item id="0" Network="254" AppNo="56" GroupAdd="13" Level="0" Name="AC Allans Office"/>
+</Items>
+</Scene>
+<Scene id="2" Name="Scene 3" AnyNet="1" Network="254" AppNo="202" GroupAdd="21" Level="2">
+<Items>
+<Item id="0" Network="254" AppNo="56" GroupAdd="13" Level="0" Name="AC Allans Office"/>
+<Item id="1" Network="254" AppNo="56" GroupAdd="1" Level="0" Name="Allan's Office Fluorescents"/>
+</Items>
+</Scene>
+<Scene id="3" Name="Scene 4" AnyNet="1" Network="254" AppNo="202" GroupAdd="9" Level="0">
+<Items>
+<Item id="0" Network="254" AppNo="56" GroupAdd="13" Level="0" Name="AC Allans Office"/>
+</Items>
+</Scene>
+</Scenes>
+<Schedules>
+<Schedule id="0" Name="Schedule One" EnableAppNo="203" EnableGroupAdd="255" EnableLevel="255" Time="43200" Year="-1" CBusType="0" Network="254" AppNo="56" GroupAdd="1" Level="0" Duration="5" ReturnLevel="255"/>
+</Schedules>
+<Irrigation ZoneOverlap="0" MasterOverlap="2" PulseDuration="1" Network="254" EnableAppNo="203" EnableGroupAdd="255" EnableLevel="255" TimeFormat="1">
+<ManualProgram id="-1" Name="" Network="254" AppNo="202" GroupAdd="255" Level="0" ZoneTimes=""/>
+</Irrigation>
+<ExceptionDays></ExceptionDays>
+<Logic>
+<Options>
+<AutoRestartLogic>0</AutoRestartLogic>
+<IgnoreLevel0RunTimeErrors>0</IgnoreLevel0RunTimeErrors>
+<MaxLogicInstructions>50000</MaxLogicInstructions>
+<MaxLogicCBusLoops>20</MaxLogicCBusLoops>
+<WaitForCBus>0</WaitForCBus>
+</Options>
+<Const>
+<Code>{Enter Constant definitions here}\CR</Code>
+</Const>
+<Type>
+<Code>{Enter Type definitions here}\CR</Code>
+</Type>
+<Var>
+<Code>{Enter Variable definitions here}\CR</Code>
+</Var>
+<Init>
+<Code>{Enter Initialisation code here}\CR</Code>
+</Init>
+</Logic>
+<ErrorAppData></ErrorAppData>
+<HVACData></HVACData>
+<MeasurementAppData></MeasurementAppData>
+<MonitorData></MonitorData>
+<Locations>
+<Location id="0" Name="l-all"/>
+<Location id="1" Name="l-admin" Profiles="0x0"/>
+<Location id="2" Name="l-second" Profiles="0x1"/>
+<Location id="3" Name="l-third" Profiles="0x2"/>
+<Location id="4" Name="Location One"/>
+<Location id="5" Name="Location Two"/>
+<Location id="6" Name="Location Three"/>
+<Location id="7" Name="Location Four"/>
+<Location id="8" Name="Location Five"/>
+<Location id="9" Name="Location Six"/>
+</Locations>
+<FunctionGroups>
+<FunctionGroup id="0" Name="f-all" FileName="bulb"/>
+<FunctionGroup id="1" Name="f-admin" FileName="bulb" Profiles="0x0"/>
+<FunctionGroup id="2" Name="f-second" FileName="bulb" Profiles="0x1"/>
+<FunctionGroup id="3" Name="f-third" FileName="bulb" Profiles="0x2"/>
+<FunctionGroup id="4" Name="Function Group One" FileName="aircon1"/>
+<FunctionGroup id="5" Name="Function Group 2" FileName="aircon1"/>
+<FunctionGroup id="6" Name="Function Group Three" FileName="aircon1"/>
+<FunctionGroup id="7" Name="Function Group Four" FileName="blinds"/>
+<FunctionGroup id="8" Name="Function Group Six" FileName="fluorescent1"/>
+</FunctionGroups>
+<Widgets>
+<widget id="0" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="0" functiongroup="0" Template="0">
+<params network="254" app="56" ga="1" label="relay-all" icon="bulb">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value="relay-all"/>
+<param name="icon" type="14" value="bulb"/>
+</params>
+</widget>
+<widget id="1" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="1" functiongroup="1" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="relay-admin" icon="bulb">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value="relay-admin"/>
+<param name="icon" type="14" value="bulb"/>
+</params>
+</widget>
+<widget id="2" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="2" functiongroup="2" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="relay-second" icon="bulb">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value="relay-second"/>
+<param name="icon" type="14" value="bulb"/>
+</params>
+</widget>
+<widget id="3" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="3" functiongroup="3" Profiles="0x2" Template="0">
+<params network="254" app="56" ga="1" label="relay-third" icon="bulb">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value="relay-third"/>
+<param name="icon" type="14" value="bulb"/>
+</params>
+</widget>
+<widget id="4" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="1" functiongroup="1" Profiles="0x0" Template="1">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+<widget id="5" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="4" functiongroup="4" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+<widget id="6" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="5" functiongroup="5" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+<widget id="7" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="6" functiongroup="6" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+<widget id="8" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="7" functiongroup="7" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+<widget id="9" Service="0" type="0" name="General Lighting Relay" filename="relay_widget.swf" location="8" functiongroup="8" Profiles="0x0" Template="0">
+<params network="254" app="56" ga="1" label="" icon="fan">
+<param name="network" type="4" value="254"/>
+<param name="app" type="5" value="56"/>
+<param name="ga" type="6" value="1"/>
+<param name="label" type="3" value=""/>
+<param name="icon" type="14" value="fan"/>
+</params>
+</widget>
+</Widgets>
+<ProfileData>
+<Profiles>
+<Profile id="0" Name="Second" User="second" PW="c2Vjb25k" Admin="1" Tools="1" Time="1" EditPW="1" Scenes="1" Schedules="1" Project="1" Enabled="1" Locations="1" Location="0" FunctionGroup="0"/>
+<Profile id="1" Name="Third" User="third" PW="dGhpcmQ=" Admin="1" Tools="1" Time="1" EditPW="1" Scenes="1" Schedules="1" Project="1" Enabled="1" Locations="1" Location="0" FunctionGroup="0" Notes="third"/>
+<Profile id="2" Name="Admin Donkey" User="admin" PW="YWRtaW4=" Admin="1" Tools="1" Time="1" EditPW="1" Scenes="1" Schedules="1" Project="1" Enabled="1" Locations="1" Location="0" FunctionGroup="0"/>
+</Profiles>
+<ProfileGroups></ProfileGroups>
+</ProfileData>
+<AppNos>
+<AppNo>56</AppNo>
+<AppNo>202</AppNo>
+</AppNos>
+<MediaLinkGroups>
+<MediaLinkGroup id="0" Name="Streamer MLG" Number="0" Server="1"/>
+<MediaLinkGroup id="1" Name="Tuner 1" Number="1" Server="0"/>
+<MediaLinkGroup id="2" Name="Tuner 2" Number="2" Server="0"/>
+<MediaLinkGroup id="3" Name="External" Number="4" Server="0"/>
+</MediaLinkGroups>
+<MatrixSwitchers>
+<MatrixSwitcher id="0" Name="Mux 2" Number="1" IPAddress="192.168.100.176" Port="20034">
+<Zones>
+<Zone id="0" Name="Zone One" Number="0" Local="0"/>
+<Zone id="1" Name="Zone Two" Number="1" Local="1"/>
+</Zones>
+<Feeds>
+<Feed id="0" Name="Local" Number="0" Type="4"></Feed>
+<Feed id="1" Name="Tuner One" Number="1" Type="0" MediaLinkGroup="1">
+<Controls>
+<Control id="0" Name="jump_back" FunctionType="4" Pos="0"/>
+<Control id="1" Name="jump_forward" FunctionType="3" Pos="1"/>
+</Controls>
+</Feed>
+<Feed id="2" Name="Tuner 2" Number="2" Type="0" MediaLinkGroup="2">
+<Controls>
+<Control id="0" Name="previous" FunctionType="4" Pos="0"/>
+<Control id="1" Name="next" FunctionType="3" Pos="1"/>
+</Controls>
+</Feed>
+<Feed id="3" Name="Analogue One" Number="3" Type="2" MediaLinkGroup="-1"></Feed>
+<Feed id="4" Name="Analogue Two" Number="4" Type="3"></Feed>
+<Feed id="5" Name="Analogue Three" Number="5" Type="2" MediaLinkGroup="-1"></Feed>
+<Feed id="6" Name="Streamer" Number="6" Type="1" MediaLinkGroup="0">
+<Controls>
+<Control id="0" Name="rewind" FunctionType="0"/>
+<Control id="1" Name="previous" FunctionType="6" Pos="0"/>
+<Control id="2" Name="stop" FunctionType="13"/>
+<Control id="3" Name="play_and_pause" FunctionType="9" Pos="1"/>
+<Control id="4" Name="next" FunctionType="5" Pos="2"/>
+<Control id="5" Name="fast_forward" FunctionType="7"/>
+<Control id="6" Name="shuffle" FunctionType="10" Pos="3"/>
+<Control id="7" Name="repeat" FunctionType="11"/>
+<Control id="8" Name="repeat_track" FunctionType="8"/>
+<Control id="9" Name="power" FunctionType="12"/>
+<Control id="10" Name="previous_frame" FunctionType="2"/>
+<Control id="11" Name="next_frame" FunctionType="1"/>
+<Control id="12" Name="replay" FunctionType="4"/>
+<Control id="13" Name="reload" FunctionType="3"/>
+</Controls>
+</Feed>
+</Feeds>
+</MatrixSwitcher>
+</MatrixSwitchers>
+<Energy CarbonFootprint="0.9">
+<PulsePowerMeters>
+<PulsePowerMeter id="0" Name="Phase One" Network="254" AppNo="56" GroupAdd="31" Scale="10" Max="10000" Generator="0" IncludeInTotals="1" Tariff="0"/>
+</PulsePowerMeters>
+<Tariffs>
+<Tariff id="0" Name="General" Price="0.1"/>
+</Tariffs>
+</Energy>
+<LoadMonitors></LoadMonitors>
+<ZigBee>
+<Mappings></Mappings>
+<Monitorings></Monitorings>
+</ZigBee>
+</Project>
